@@ -6,6 +6,6 @@ version_major = int(v[1])
 version_minor = int(v[2])
 
 main = rule {
-    version_minor >= 4
+    #version_minor >= 4
     version_major >= 1
 }
